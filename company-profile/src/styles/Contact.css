@@ -4,7 +4,8 @@
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the total width/height */
 }
-.main-container h1{
+
+.main-container h1 {
     text-align: center;
 }
 
@@ -18,7 +19,7 @@
 .image-holder {
     flex: 1;
     margin-right: 20px;
-    height: 500px; 
+    height: 500px;
     display: flex;
     justify-content: flex-start;
 }
@@ -33,12 +34,16 @@
 .text-holder {
     flex: 1;
     text-align: left;
-    padding-left: 2%;
+    
     padding-top: 2%;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
 }
+
 .text-holder h2 {
     margin-top: 0; /* Remove top margin */
     margin-bottom: 5px; /* Adjust bottom margin for less space */
+    margin-left: 10%;
 }
 
 .text-holder p {
@@ -46,6 +51,7 @@
     color: white; /* Text color for contrast */
     border-radius: 20px; /* Creates the pill shape */
     padding: 10px 20px; /* Padding for better appearance */
-    display: inline-block; /* Ensures the p tags don't take full width */
+    display: flex; /* Ensures the p tags don't take full width */
     margin-bottom: 10px; /* Space between pills */
+    margin-top: 0; /* Remove top margin for better alignment */
 }
