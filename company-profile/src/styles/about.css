@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+    padding-left: 10px; 
+}
+
+.about-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 10px; 
+    padding-top: 40px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+p {
+    margin-left: 60px;
+    max-width: 100ch;
+}
+
+.about-div3 { 
+    flex-Direction: row; 
+    display: flex; 
+    margin-Left: 32px; 
+    padding-Left: 32px; 
+    margin-Top:50px;
+}
+
+/* Styles for the container div */
+.timeline-container {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+/* Styles for the h2 heading */
+.timeline-heading {
+    margin: 0 0 5px 0; /* shorthand for margin-top, margin-right, margin-bottom, margin-left */
+    text-align: left;
+}
+
+/* Styles for the paragraph */
+.timeline-text {
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.outer-div{
+    background-color: #3498DB;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.comp-header{
+    text-align: left;
+    margin-left: 80px;
+}
+
+.comp-header{
+    border-radius: 10px;
+    background-color: #333;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}

@@ -1,14 +1,30 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import Background from './Background/Background';
-import Navbar from './Navbar/Navbar';
-import Hero from './Hero/Hero';
-import Home from './Home';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Service from './components/Service';
+import Products from './components/Products';
+import Contact from './components/Contact';
+
 function App() {
- 
   return (
     <div className="App">
-      <Home/>
+      <Navbar />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="service">
+        <Service />
+      </section>
+      <section id="products">
+        <Products />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }

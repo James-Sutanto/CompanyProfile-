@@ -1,0 +1,79 @@
+.outer-div3 {
+    background-color: #3498DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.clients-para {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px; /* Increased padding for better spacing */
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 1200px; /* Ensure a maximum width */
+    text-align: center; /* Center the paragraph text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between grid items */
+    width: 100%; /* Ensure the grid takes full width */
+    max-width: 1200px; /* Set a maximum width */
+}
+
+.service-card2 {
+    position: relative;
+    width: 100%; /* Full width of the grid item */
+    padding-top: 100%; /* Aspect ratio of 1:1 */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    border-radius: 10px; /* Optional, for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color for the card */
+}
+
+.service-card2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire card */
+    display: block; /* Removes bottom space/gap */
+}
+
+.card-text2 {
+    position: absolute;
+    bottom: 10px; /* Adjust to position text at the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    font-weight: 700;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%; /* Adjust according to preference */
+    text-align: center;
+}
+
+.footer {
+    background-color: transparent; /* Remove the white background */
+    text-align: center; /* Center the footer content */
+    padding: 10px; /* Add padding for better spacing */
+    width: 100%; /* Ensure footer takes full width */
+}
