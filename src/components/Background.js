@@ -2,7 +2,7 @@ import "/Users/jamessutanto/CompanyProfile-/company-profile/src/styles/Backgroun
 import molding from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Molding-min.JPG';
 import design from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Design-min.JPG';
 import staff from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Staff-min.JPG' ;
-
+// nice
 const Background = ({ heroCount }) => {
   let backgroundImage;
 
